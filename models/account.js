@@ -5,7 +5,11 @@ const Schema = mongoose.Schema
 
 const Account = new Schema({
     hash: { type: String, unique: true },
-    balance: String,
+    pool0: Number,
+    pool1: Number,
+    pool2: Number,
+    pool3: Number,
+    pool4: Number,
     balanceNumber: Number,
     accountType: { type: String, index: true },
     isSend: { type: Boolean, index: true, default: false },
