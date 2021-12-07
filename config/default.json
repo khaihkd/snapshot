@@ -1,6 +1,6 @@
 {
   "db": {
-    "uri": "mongodb://localhost:27017/tokenHolder"
+    "uri": "mongodb://localhost:27017/snapshot"
   },
   "ethProvider": {
     "ws": "wss://mainnet.infura.io/ws",
